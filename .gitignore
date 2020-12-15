@@ -1,0 +1,5 @@
+# Build folder
+build/*
+
+# IDE settings / project folder
+.vscode
