@@ -25,7 +25,5 @@ add_executable(crack
   src/common.c
   src/crypt.h
   src/crypt.c
-  src/crack.h
-  src/crack.c
   crack.c
 )
