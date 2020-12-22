@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
-#include <common.h>
-#include <crypt.h>
+
+#include "src/common.h"
+#include "src/crypt.h"
 
 int main()
 {
-    assert(encrypt_char('~', '!') == ' ');
     assert(decrypt_char(' ', '!') == '~');
 
     char* key = read_size_and_input();
